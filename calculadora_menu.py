@@ -21,7 +21,7 @@ def multiplicar():
 def dividir():
     if y.get() != 0:
         z = int(x.get()) / int(y.get())
-        texto_resultados.insert(INSERT, x.get() + " - " + y.get() + " = " + str(z) + "\n")
+        texto_resultados.insert(INSERT, x.get() + " / " + y.get() + " = " + str(z) + "\n")
     else:
         texto_resultados.insert(INSERT, "Math ERROR\n")
     
